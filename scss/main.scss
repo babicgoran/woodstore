@@ -1,0 +1,26 @@
+// SKIDANJE MARGINA I PADINGA NA CONTAINER-FLUD 
+.container-fluid {
+    margin: 0; 
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+// FONT GENERALNI
+* {
+    font-family: 'Titillium Web', sans-serif;
+}
+// FONT NASLOVA
+$fontNaslovi: 'Titillium Web', sans-serif;
+h1, h2, h3, h4, h5, h6 {
+    font-family: $fontNaslovi;
+}
+// BOJE U VARIJABLAMA
+$svetlosivaboja: #908585;
+$sivaboja: #252525;
+// SKIDANJE MARGINA I PADINGA
+.bezmarginaipadinga {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+@import 'meni';
+@import 'naslovna';
+@import 'futer';

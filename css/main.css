@@ -1,0 +1,95 @@
+.container-fluid {
+  margin: 0;
+  padding-right: 0px !important;
+  padding-left: 0px !important; }
+
+* {
+  font-family: 'Titillium Web', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Titillium Web", sans-serif; }
+
+.bezmarginaipadinga {
+  margin: 0 !important;
+  padding: 0 !important; }
+
+header {
+  margin: 0px !important;
+  background-color: white !important; }
+  header nav {
+    padding: 0;
+    text-align: center;
+    margin: 0 auto; }
+    header nav a {
+      color: #252525 !important;
+      font-family: "Titillium Web", sans-serif; }
+  header .navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: white; }
+  header .navbar-toggler-icon {
+    background-color: white; }
+  header #navbarNavDropdown {
+    justify-content: flex-end; }
+
+main .naslovnafotografija {
+  padding: 0;
+  border-radius: 0px; }
+main .uvod {
+  border: solid 1px #908585;
+  margin: 0 auto;
+  padding: 20px; }
+  main .uvod p {
+    margin: auto; }
+main .tekstUvoda {
+  margin: auto auto !important; }
+main #fotografije {
+  margin-top: 30px; }
+  main #fotografije p {
+    text-align: center; }
+main .destinacije {
+  margin: 0px; }
+  main .destinacije h1 {
+    padding: 0;
+    text-align: center;
+    margin: 30px auto; }
+  main .destinacije p {
+    padding: 10px;
+    text-align: justify;
+    margin: 0 auto; }
+  main .destinacije h2 {
+    text-align: center;
+    margin: 30px auto 20px;
+    padding: 0px; }
+  main .destinacije a img {
+    border-radius: 6%;
+    margin: 3.25px auto;
+    padding: 0px 5px; }
+  main .destinacije .kartica {
+    text-align: center;
+    margin: 0 auto; }
+
+@media all and (max-width: 900px) {
+  #portugal, #glavnigradovievrope, #spanija {
+    display: none; } }
+#futer {
+  margin-top: 30px;
+  color: #424244;
+  background-color: #908585; }
+  #futer .kontaktdetalji {
+    text-align: center;
+    padding: 0px; }
+  #futer h2 {
+    font-family: 'Dancing Script', cursive;
+    margin: 15px auto 10px; }
+  #futer .sortiranje {
+    justify-content: center; }
+  #futer .ram {
+    border: solid #424244 3px;
+    padding: 10px 25px;
+    margin: 20px;
+    box-sizing: border-box; }
+  #futer a img {
+    margin: auto;
+    border-radius: 0px; }
+
+/*# sourceMappingURL=main.css.map */

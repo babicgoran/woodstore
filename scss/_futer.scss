@@ -1,0 +1,27 @@
+//FUTER
+#futer {
+    margin-top: 30px;
+    color: #424244;
+    background-color: $svetlosivaboja;
+    .kontaktdetalji {
+        text-align: center;
+        padding: 0px;
+    }
+    h2 {
+        font-family: 'Dancing Script', cursive;
+        margin: 15px auto 10px;
+    }
+    .sortiranje {
+        justify-content: center;
+    }
+    .ram {
+        border: solid #424244 3px;
+        padding: 10px 25px;
+        margin: 20px;
+        box-sizing: border-box;
+    }
+    a img {
+        margin: auto;
+        border-radius: 0px;
+    }
+}
