@@ -60,9 +60,9 @@ main .destinacije {
     text-align: center;
     margin: 30px auto 20px;
     padding: 0px; }
-  main .destinacije a img {
+  main .destinacije img {
     border-radius: 6%;
-    margin: 3.25px auto;
+    margin: 15px auto;
     padding: 0px 5px; }
   main .destinacije .kartica {
     text-align: center;
@@ -91,5 +91,10 @@ main .destinacije {
   #futer a img {
     margin: auto;
     border-radius: 0px; }
+  #futer a p {
+    text-decoration: none;
+    color: #424244; }
+  #futer a p:hover {
+    font-weight: bold; }
 
 /*# sourceMappingURL=main.css.map */

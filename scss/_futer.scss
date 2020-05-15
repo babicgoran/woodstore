@@ -24,4 +24,11 @@
         margin: auto;
         border-radius: 0px;
     }
+    a p {
+        text-decoration: none;
+        color: #424244;
+    }
+    a p:hover {
+        font-weight: bold;
+    }
 }
