@@ -48,12 +48,11 @@ main {
             margin: 0 auto; 
         }
     }
-}
-
-//PRESEK ZA RESPONSIVE
-
-@media all and (max-width: 900px) {
-    #portugal, #glavnigradovievrope, #spanija {
-        display: none;
+    iframe {
+        margin: 30px auto;
+    }
+    #kontaktpodaci {
+        text-align: center;
+        font-weight: bold;
     }
 }

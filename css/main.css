@@ -67,10 +67,12 @@ main .destinacije {
   main .destinacije .kartica {
     text-align: center;
     margin: 0 auto; }
+main iframe {
+  margin: 30px auto; }
+main #kontaktpodaci {
+  text-align: center;
+  font-weight: bold; }
 
-@media all and (max-width: 900px) {
-  #portugal, #glavnigradovievrope, #spanija {
-    display: none; } }
 #futer {
   margin-top: 30px;
   color: #424244;
