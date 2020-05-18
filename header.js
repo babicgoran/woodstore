@@ -11,10 +11,10 @@ document.write('\
                 <a class="nav-link" href="apsolutna putanja na naslovnu">Početna<span class="sr-only">(current)</span></a>\
             </li>\
             <li class="nav-item">\
-                <a class="nav-link" href="apsolutna putanja na hrastove ploce">Hrastove Ploče</a>\
+                <a class="nav-link" href="./hrastoveploce/index.html">Hrastove Ploče</a>\
             </li>\
             <li class="nav-item">\
-                <a class="nav-link" href="apsolutna putanja na gazista">Gazišta</a>\
+                <a class="nav-link" href="./gazista/index.html">Gazišta</a>\
             </li>\
             <li class="nav-item">\
                 <a class="nav-link" href="apsolutna putanja na lamelirane elemente">Lamelirani elementi</a>\
