@@ -21,6 +21,12 @@ $sivaboja: #252525;
     margin: 0 !important;
     padding: 0 !important;
 }
+// SKIDANJE STRELICA NA INPUT NUMBER
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
 @import 'meni';
 @import 'naslovna';
 @import 'futer';

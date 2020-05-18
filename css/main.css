@@ -13,6 +13,11 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 !important;
   padding: 0 !important; }
 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
 header {
   margin: 0px !important;
   background-color: white !important; }
