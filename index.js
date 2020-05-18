@@ -66,11 +66,11 @@
         
         x > 2 || y > 2 ? 
 
-        cena.innerHTML=x*y*(higherPrice+parseInt(premaz))+"e"
+        cena.innerHTML=(Math.floor(x*y*(higherPrice+parseInt(premaz)) * 100) / 100 )+" evra"
 
         :
 
-        cena.innerHTML=x*y*(lowerPrice+parseInt(premaz))+"e"
+        cena.innerHTML=(Math.floor(x*y*(lowerPrice+parseInt(premaz)) * 100) / 100 )+" evra"
 
     }
 

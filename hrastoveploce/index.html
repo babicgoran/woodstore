@@ -95,21 +95,36 @@
             </article>
         </section>
 
-        <input type="number" name="" id="" class="duzina" required>
-        <input type="number" name="" id="" class="sirina" required>
-        <select name="" id="" class="debljina" required>
-            <option value="20">20mm</option>
-            <option value="40">40mm</option>
-        </select>
-        <select name="" id="" class="klasa" required>
-            <option value="AB">AB</option>
-            <option value="BC">BC</option>
-        </select>
-        <select name="" id="" class="premaz" required>
-            <option value="30">premaz</option>
-        </select>
-        <button class="izracunaj">izracunaj</button>
-        <h2 class="cena"></h2>
+        <!--KALKULATOR-->
+        <section class="row destinacije">
+            <article class="col-xl-3 col-10 kartica">
+                <h2>Kalkulator cene ploča</h2>
+                <article class="row kalkulator">
+
+                    <input type="text" class="duzina col-10 inputobrada" placeholder="Dužina u M = 0.00">
+                    <input type="text" class="sirina col-10 inputobrada" placeholder="Širina u M = 0.00">
+                    <select class="debljina col-10 inputobrada">
+                        <option value="20">20mm</option>
+                        <option value="40">40mm</option>
+                    </select>
+                    <select class="klasa col-10 inputobrada">
+                        <option value="AB">AB</option>
+                        <option value="BC">BC</option>
+                    </select>
+                    <select class="premaz col-10 inputobrada">
+                        <option value="0">Bez Premaza</option>
+                        <option value="50">Ulje - Dvostrano</option>
+                        <option value="50">Lak - Dvostrano</option>
+                    </select>
+                    <button class="izracunaj col-10 inputobrada">Izračunaj</button>
+                    <h3 class="cena col-10"></h3>
+                    <p class="col-12">*Postoji mogućnost poručivanja ploča drugih debljina.</p>
+
+                </article>
+
+            </article>
+        </section>
+
         <!--FUTER-->
         <footer id='futer' class="row destinacije futer">
             <article class="col-12 kartica">

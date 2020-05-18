@@ -72,6 +72,18 @@ main iframe {
 main #kontaktpodaci {
   text-align: center;
   font-weight: bold; }
+main .kalkulator {
+  padding: 20px;
+  border: solid 1px #908585; }
+  main .kalkulator h3 {
+    color: #01b2bc;
+    font-weight: bold; }
+main .inputobrada {
+  padding: 0px;
+  margin: 5px auto;
+  border: solid #dddddd 1px; }
+main .cena {
+  margin: 0 auto; }
 
 #futer {
   margin-top: 30px;
