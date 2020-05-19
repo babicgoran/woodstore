@@ -74,6 +74,27 @@
 
     }
 
-    izracunaj.addEventListener("click", priceCalculation )
+    izracunaj.addEventListener("click", ()=>{
+        const {x,y} = getInputValues()
+        if(!x && !y ){
+            duzina.classList.add("invalid");
+            sirina.classList.add("invalid");
+            return
+        }
+        else if (!x){
+            duzina.classList.add("invalid");
+
+        }
+        else if (!y){
+            sirina.classList.add("invalid");
+        }
+        else{
+            duzina.classList.remove("invalid");
+            sirina.classList.remove("invalid");
+            
+
+            priceCalculation()
+        }
+    })
     
 }
