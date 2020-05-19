@@ -51,6 +51,8 @@ main #fotografije {
   margin-top: 30px; }
   main #fotografije p {
     text-align: center; }
+  main #fotografije .opisi {
+    padding: 40px 20px; }
 main .destinacije {
   margin: 0px; }
   main .destinacije h1 {
@@ -89,6 +91,13 @@ main .inputobrada {
   border: solid #dddddd 1px; }
 main .cena {
   margin: 0 auto; }
+@media all and (max-width: 630px) {
+  main #fotografije {
+    margin-top: 30px; }
+    main #fotografije p {
+      text-align: center; }
+    main #fotografije .opisi {
+      padding: 0px 20px; } }
 
 #futer {
   margin-top: 30px;

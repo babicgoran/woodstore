@@ -20,7 +20,11 @@ main {
         p {
             text-align: center;
         }
+        .opisi {
+        padding: 40px 20px;
+        }
     }
+    
     .destinacije {
         margin: 0px;
         h1 {
@@ -70,5 +74,17 @@ main {
     }
     .cena {
         margin: 0 auto;
+    }
+
+    @media all and (max-width: 630px) {
+        #fotografije {
+            margin-top: 30px;
+            p {
+                text-align: center;
+            }
+            .opisi {
+            padding: 0px 20px;
+            }
+        }
     }
 }
