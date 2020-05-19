@@ -91,6 +91,8 @@ main .inputobrada {
   border: solid #dddddd 1px; }
 main .cena {
   margin: 0 auto; }
+main .invalid {
+  border: 1px solid pink; }
 @media all and (max-width: 630px) {
   main #fotografije {
     margin-top: 30px; }

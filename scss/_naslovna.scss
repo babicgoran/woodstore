@@ -75,6 +75,9 @@ main {
     .cena {
         margin: 0 auto;
     }
+    .invalid {
+        border: 1px solid pink;
+    }
 
     @media all and (max-width: 630px) {
         #fotografije {
