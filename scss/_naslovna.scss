@@ -2,6 +2,10 @@
 main {
     .fotografija {
         width: 100%;
+        text-align: center;
+    }
+    .centriranje {
+        margin: 0 auto;
     }
     .naslovnafotografija {
         padding: 0;
