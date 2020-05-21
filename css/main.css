@@ -36,6 +36,8 @@ header {
   header #navbarNavDropdown {
     justify-content: flex-end; }
 
+main .fotografija {
+  width: 100%; }
 main .naslovnafotografija {
   padding: 0;
   border-radius: 0px; }
@@ -118,9 +120,6 @@ main .invalid {
     padding: 10px 25px;
     margin: 20px;
     box-sizing: border-box; }
-  #futer a img {
-    margin: auto;
-    border-radius: 0px; }
   #futer a p {
     text-decoration: none;
     color: #424244; }
