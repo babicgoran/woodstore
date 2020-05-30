@@ -69,7 +69,7 @@
         let height = parseInt(z) / 1000
 
         let surfaceArea = length * width
-        let sideSurface = 2 * height * (length + width) // ukupna povrsina bocnih strana 
+        let sideSurface = height * (length + width) // ukupna povrsina bocnih strana 
 
         length > 2 || width > 2 ?
 
