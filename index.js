@@ -94,9 +94,10 @@
             cena.innerHTML = (Math.floor((surfaceArea * (calcForDimensions(0.3 , basePrice) + parseInt(premaz)) + sideSurface * parseInt(premaz)) * 100) / 100) + " evra"
         }else if ((length >= 4 || width >= 4) && (length < 5 && width < 5 )){
             cena.innerHTML = (Math.floor((surfaceArea * (calcForDimensions(0.4 , basePrice) + parseInt(premaz)) + sideSurface * parseInt(premaz)) * 100) / 100) + " evra"
-        }else if (length === 5 || width === 5){
+        }else if ((length === 5 || width === 5)&&(length < 5 || width < 5)){
             cena.innerHTML = (Math.floor((surfaceArea * (calcForDimensions(0.5 , basePrice) + parseInt(premaz)) + sideSurface * parseInt(premaz)) * 100) / 100) + " evra"
         }else{
+            console.log("hello")
             cena.innerHTML="max 5m"
         }
 
