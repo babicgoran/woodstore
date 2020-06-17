@@ -1,6 +1,6 @@
 document.write('\
 <nav class ="navbar navbar-expand-lg navbar-light col-xl-10">\
-    <a class="navbar-brand" href="http://www.hrastoveploce.com/"><img src="/images/logotype.jpg" width="200px" alt="logo"></a>\
+    <a class="navbar-brand" href="http://www.hrastoveploce.com/"><img src="/images/logotype1.jpg" width="200px" alt="logo"></a>\
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"\
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">\
         <span class="navbar-toggler-icon"></span>\
