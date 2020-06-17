@@ -62,8 +62,7 @@
         }
 
         let length = adjustDimension(x)
-        let width = Math.ceil(y)
-        console.log(width)
+        let width = Math.ceil(y) / 100
         let height = parseInt(z) / 1000
 
         let surfaceArea = length * width
