@@ -22,24 +22,24 @@
     const getType = (a, b) => {
 
         let price = 0
-        
+
 
         switch (a + "|" + b) {
             case "20|AB":
-                price= 80;
+                price = 80;
 
                 break;
             case "20|BC":
-                price= 54;
+                price = 54;
 
                 break;
 
             case "40|AB":
-                price= 160;
+                price = 160;
 
                 break;
             case "40|BC":
-                price= 108;
+                price = 108;
 
                 break;
             default:
@@ -53,52 +53,52 @@
     const priceCalculation = () => {
 
         const { x, y, z, klasa, premaz } = getInputValues()
-        const  price  = getType(z, klasa)
+        const price = getType(z, klasa)
         // zaokruzi na 10 cm 
-        const adjustDimension=(dimension)=>{
-            const dim=dimension/10
+        const adjustDimension = (dimension) => {
+            const dim = dimension / 10
             const roundDimension = Math.ceil(dim)
-            return roundDimension/10
+            return roundDimension / 10
         }
-      
-        let length = adjustDimension(x)
-        let width = adjustDimension(y)
 
+        let length = adjustDimension(x)
+        let width = Math.ceil(y)
+        console.log(width)
         let height = parseInt(z) / 1000
 
         let surfaceArea = length * width
         let sideSurface = height * (length + width) // ukupna povrsina bocnih strana 
 
         const calcForDimensions = (l, price) => {
-            return (price + l*price)
+            return (price + l * price)
         }
-        
-        if( length <= 2 ){
+
+        if (length <= 2) {
             cena.innerHTML = (Math.floor((surfaceArea * (price + parseInt(premaz)) + sideSurface * parseInt(premaz)) * 100) / 100) + " evra"
-        }else if((length > 2) && (length < 3) ){
-            cena.innerHTML = (Math.floor((surfaceArea * (calcForDimensions(0.2 , price) + parseInt(premaz)) + sideSurface * parseInt(premaz)) * 100) / 100) + " evra"
-        }else if((length >= 3) && (length < 4)) {
-            cena.innerHTML = (Math.floor((surfaceArea * (calcForDimensions(0.3 , price) + parseInt(premaz)) + sideSurface * parseInt(premaz)) * 100) / 100) + " evra"
-        }else if ((length >= 4 ) && (length < 5)){
-            cena.innerHTML = (Math.floor((surfaceArea * (calcForDimensions(0.4 , price) + parseInt(premaz)) + sideSurface * parseInt(premaz)) * 100) / 100) + " evra"
-        }else if (length === 5 ){
-            cena.innerHTML = (Math.floor((surfaceArea * (calcForDimensions(0.5 , price) + parseInt(premaz)) + sideSurface * parseInt(premaz)) * 100) / 100) + " evra"
-        }else{
-            cena.innerHTML="max 5m"
+        } else if ((length > 2) && (length < 3)) {
+            cena.innerHTML = (Math.floor((surfaceArea * (calcForDimensions(0.2, price) + parseInt(premaz)) + sideSurface * parseInt(premaz)) * 100) / 100) + " evra"
+        } else if ((length >= 3) && (length < 4)) {
+            cena.innerHTML = (Math.floor((surfaceArea * (calcForDimensions(0.3, price) + parseInt(premaz)) + sideSurface * parseInt(premaz)) * 100) / 100) + " evra"
+        } else if ((length >= 4) && (length < 5)) {
+            cena.innerHTML = (Math.floor((surfaceArea * (calcForDimensions(0.4, price) + parseInt(premaz)) + sideSurface * parseInt(premaz)) * 100) / 100) + " evra"
+        } else if (length === 5) {
+            cena.innerHTML = (Math.floor((surfaceArea * (calcForDimensions(0.5, price) + parseInt(premaz)) + sideSurface * parseInt(premaz)) * 100) / 100) + " evra"
+        } else {
+            cena.innerHTML = "max 5m"
         }
 
     }
-    duzina.addEventListener("change", ()=>{
+    duzina.addEventListener("change", () => {
         const { x } = getInputValues()
-        if(x>500){
-            duzina.value=500;   
-        }        
+        if (x > 500) {
+            duzina.value = 500;
+        }
     })
-    sirina.addEventListener("change", ()=>{
+    sirina.addEventListener("change", () => {
         const { y } = getInputValues()
-        if(y>150){
-            sirina.value=150;   
-        }        
+        if (y > 150) {
+            sirina.value = 150;
+        }
     })
 
     izracunaj.addEventListener("click", () => {
